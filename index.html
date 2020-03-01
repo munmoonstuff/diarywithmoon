@@ -5,7 +5,7 @@
   <title>Mun Moon Stuff</title>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;background-image: url("https://giphy.com/gifs/KE4a7jQ4xCYAZyed5E");}
-form {border: 3px solid #f1f1f1; width:100%;}
+form {border: 3px solid #f1f1f1; width:25%;}
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -57,12 +57,15 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 100%) {
   span.psw {
      display: block;
      float: none;
   }
   .cancelbtn {
+     width: 100%;
+  }
+  form {
      width: 100%;
   }
 }
